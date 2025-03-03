@@ -294,7 +294,7 @@ nav {
 .intro-text {
   flex: 0 1 40%;
   margin: 5rem;
-  text-align: Left;
+  text-align: left;
 }
 
 .intro-text h1 {
