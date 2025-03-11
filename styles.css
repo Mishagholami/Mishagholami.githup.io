@@ -492,3 +492,34 @@ footer {
     margin: 0.625rem 0;
   }
 }
+
+/* Clickable Section Styles */
+.section-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.section-link:hover {
+  transform: translateY(-5px);
+}
+
+.clickable {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clickable:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.click-indicator {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.section-link:hover .click-indicator {
+  transform: translateX(5px);
+}
