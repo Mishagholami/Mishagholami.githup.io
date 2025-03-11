@@ -204,7 +204,7 @@ nav {
 }
 
 /* Responsive*/
-(max-width: 48rem) {
+@media (max-width: 48rem) {
   .nav-container {
     flex-direction: column;
     padding: 1rem;
@@ -268,8 +268,8 @@ nav {
   gap: 10rem;
   width: 100%;
   max-width: 90rem;
-  margin: 2rem;
-  padding: 6rem;
+  margin: 0 auto;
+  padding: 3.75rem;
 }
 
 .intro-text {
@@ -298,7 +298,7 @@ nav {
 }
 
 /* Responsive */
-(max-width: 48rem) {
+@media (max-width: 48rem) {
   #intro {
     padding: 1.25rem;
   }
@@ -378,7 +378,7 @@ nav {
 }
 
 /* Responsive adjustments */
-(max-width: 48rem) {
+@media (max-width: 48rem) {
   .project-content {
     flex-direction: column;
     min-height: auto;
@@ -395,13 +395,13 @@ nav {
   }
 
   .project-curved {
-    border-radius: 1.875rem 
-    text-align: center 
-    justify-content: center 
+    border-radius: 1.875rem !important;
+    text-align: center !important;
+    justify-content: center !important;
   }
 
   .project-curved p {
-    margin: 0 
+    margin: 0 !important;
   }
 }
 
@@ -424,7 +424,7 @@ nav {
 }
 
 /* Responsive adjustments */
-(max-width: 48rem) {
+@media (max-width: 48rem) {
   .illustration-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -432,7 +432,7 @@ nav {
   }
 }
 
-(max-width: 30rem) {
+@media (max-width: 30rem) {
   .illustration-grid {
     grid-template-columns: 1fr;
     padding: 0 1rem;
@@ -457,7 +457,7 @@ footer {
 }
 
 /* Responsive Design */
-(max-width: 30rem) {
+@media (max-width: 30rem) {
   .project-grid,
   .illustration-grid {
     grid-template-columns: 1fr;
@@ -518,7 +518,7 @@ p {
 }
 
 /* Responsive Design */
-(max-width: 768px) {
+@media (max-width: 768px) {
   .content-section {
     flex-direction: column;
     text-align: center;
@@ -568,7 +568,7 @@ p {
 }
 
 /* Responsive Design */
-(max-width: 768px) {
+@media (max-width: 768px) {
   .project-detail-section,
   .project-detail-section.reverse {
     flex-direction: column;
@@ -619,7 +619,7 @@ p {
 .simple-text h2 {
   font-size: 24px;
   margin-bottom: 15px;
-  color: rgb(241, 188, 90);
+  color: white;
 }
 
 .simple-text p {
