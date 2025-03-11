@@ -3,24 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Project Details</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=Whisper&display=swap"
-      rel="stylesheet"
-    />
-
     />
   </head>
   <body>
+    <!-- Nav Menu -->
     <nav>
       <div class="nav-container">
         <div class="logo">
@@ -29,122 +22,79 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="index.html#about">About Me</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Project Content -->
-    <div class="content-container">
-      <!-- Section 1 -->
-      <section class="content-section">
-        <div class="image-container">
-          <div class="placeholder-image">
-            <img src="img/project2-1.jpg" alt="Project Overview" />
-          </div>
-        </div>
-        <div class="text-container">
-          <h2>Project Overview</h2>
-          <p>
-            This project focuses on creating an innovative mobile application
-            that helps users track their daily activities and achieve their
-            personal goals. The app combines intuitive design with powerful
-            functionality to deliver a seamless user experience.
-          </p>
-        </div>
-      </section>
-
-      <!-- Section 2 -->
-      <section class="content-section reverse">
-        <div class="image-container">
-          <div class="placeholder-image">
-            <img src="img/project2-2.jpg" alt="Problem Definition" />
-          </div>
-        </div>
-        <div class="text-container">
-          <h2>Problem Definition</h2>
-          <p>
-            Many existing activity tracking apps are either too complex or too
-            simple, failing to meet users' needs effectively. Our challenge was
-            to create a balanced solution that offers comprehensive features
-            while maintaining ease of use.
-          </p>
-        </div>
-      </section>
-
-      <!-- Section 3 - Clickable -->
-      <a href="design-details.html" class="section-link">
-        <section class="content-section clickable">
-          <div class="image-container">
-            <div class="placeholder-image">
-              <img src="img/project2-3.jpg" alt="Design Solution" />
-            </div>
-          </div>
-          <div class="text-container">
-            <h2>Design Solution <span class="click-indicator">→</span></h2>
-            <p>
-              We developed a clean, minimalist interface that prioritizes the
-              most important information while keeping advanced features easily
-              accessible. The design uses a modular approach, allowing users to
-              customize their experience based on their needs.
-            </p>
+    <div class="top-spacing">
+      <div class="simple-container">
+        <!-- Section 1 -->
+        <section class="simple-section">
+          <div class="simple-image"></div>
+          <div class="simple-text">
+            <h2>Project Overview</h2>
+            <p>Detailed description of the project goes here.</p>
           </div>
         </section>
-      </a>
 
-      <!-- Section 4 -->
-      <section class="content-section reverse">
-        <div class="image-container">
-          <div class="placeholder-image">
-            <img src="img/project2-4.jpg" alt="Implementation" />
+        <!-- Section 2 -->
+        <section class="simple-section right">
+          <div class="simple-image"></div>
+          <div class="simple-text">
+            <h2>Design Process</h2>
+            <p>Explain the design process here.</p>
           </div>
-        </div>
-        <div class="text-container">
-          <h2>Implementation</h2>
-          <p>
-            The implementation phase involved creating interactive prototypes,
-            conducting user testing, and iterating based on feedback. We used
-            modern development frameworks to ensure smooth performance across
-            different devices.
-          </p>
-        </div>
-      </section>
+        </section>
 
-      <!-- Section 5 -->
-      <section class="content-section">
-        <div class="image-container">
-          <div class="placeholder-image">
-            <img src="img/project2-5.jpg" alt="Results & Impact" />
+        <!-- Section 3 -->
+        <section class="simple-section">
+          <div class="simple-image"></div>
+          <div class="simple-text">
+            <h2>Implementation</h2>
+            <p>Describe implementation details here.</p>
           </div>
-        </div>
-        <div class="text-container">
-          <h2>Results & Impact</h2>
-          <p>
-            The final product has received positive feedback from users and
-            achieved high engagement metrics. User retention rates exceeded
-            initial targets by 40%, and the app has maintained a 4.8/5 rating in
-            app stores.
-          </p>
-        </div>
-      </section>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="simple-section right">
+          <div class="simple-image"></div>
+          <div class="simple-text">
+            <h2>Challenges</h2>
+            <p>Discuss challenges and solutions here.</p>
+          </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="simple-section">
+          <div class="simple-image"></div>
+          <div class="simple-text">
+            <h2>Results</h2>
+            <p>Share the project outcomes here.</p>
+          </div>
+        </section>
+      </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-      <div class="footer-content">
-        <div class="contact">
-          <h3>Contact Info</h3>
-          <p>Email: your@email.com</p>
-          <p>Phone: (123) 456-7890</p>
-        </div>
-        <div class="social">
-          <h3>Social Media</h3>
-          <p>LinkedIn</p>
-          <p>Twitter</p>
-          <p>Instagram</p>
+    <footer class="section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>Email: ghazalehgholami.me@vapilanou.ca</p>
+            <p>Phone: (123) 456-7890</p>
+          </div>
+          <div class="footer-section">
+            <h3>Social Media</h3>
+            <p>LinkedIn</p>
+            <p>Behance</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+          </div>
         </div>
       </div>
     </footer>
