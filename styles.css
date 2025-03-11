@@ -118,43 +118,8 @@ img {
   text-decoration: none;
   border-radius: 5px;
 }
-/*
-.scroll-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background: #333;
-  color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
 
-.scroll-to-top.visible {
-  opacity: 1;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.skill {
-  background: #f4f4f4;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  text-align: center;
-}
-*/
-.about-img {
+*/ .about-img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -257,26 +222,6 @@ nav {
   justify-content: center;
   padding: 0 3.75rem;
 }
-/*
-.intro-bg {
-  width: 100%;
-  height: 100%;
-  background-image: url("../Study/img/Asset\ 2.png");
-  background-size: cover;
-  background-position: center;
-  opacity: 30%;
-  z-index: 1;
-}
-*/
-
-/* dark overlay 
-.intro-bg::after {
-  content: "";
-
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.9));
-}*/
 
 .intro-content {
   position: relative;
@@ -397,7 +342,7 @@ nav {
   margin-left: 3.75rem;
 }
 
-/* Responsive adjustments */
+/* Responsive  */
 @media (max-width: 48rem) {
   .project-content {
     flex-direction: column;
@@ -461,7 +406,7 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #1a1a1a; /* Darker gray for footer */
+  background-color: #1a1a1a;
   color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
