@@ -396,9 +396,9 @@ nav {
   }
 
   .project-curved {
-    border-radius: 1.875rem !important;
-    text-align: center !important;
-    justify-content: center !important;
+    border-radius: 1.875rem;
+    text-align: center;
+    justify-content: center;
   }
 
   .project-curved p {
