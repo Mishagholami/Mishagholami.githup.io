@@ -23,6 +23,11 @@ img {
 .self-portrait {
   border-radius: 5rem;
 }
+.project01 {
+  padding-right: 30%;
+  width: 85%;
+  border-radius: 4rem;
+}
 
 .scroll-btn {
   display: inline-block;
@@ -344,8 +349,8 @@ nav {
 }
 
 .project-curved {
-  width: 50%;
-  background-color: #333;
+  width: 95%;
+  background-color: #e5e5e5;
   display: flex;
   align-items: center;
   padding: 3.75rem;
@@ -354,12 +359,12 @@ nav {
 /* Section 2 styling */
 #projects-1 .project-curved {
   border-radius: 0 18.75rem 18.75rem 0;
-  justify-content: flex-end;
+
   text-align: right;
 }
 
 #projects-1 .project-curved p {
-  margin-right: 3.75rem;
+  margin-right: 0;
 }
 
 /* Section 3 styling */
