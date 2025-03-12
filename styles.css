@@ -1,3 +1,5 @@
+@import url(reset.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -26,8 +28,7 @@ img {
   border-radius: 5rem;
 }
 .project01 {
-  padding-right: 30%;
-  width: 85%;
+  width: 100%;
 }
 .project02 {
   padding-right: 30%;
@@ -159,10 +160,10 @@ img {
 nav {
   background-color: #333;
   padding: 1rem 0;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  top: 0;
-  z-index: 1000;
+  /* top: 0;
+  z-index: 1000; */
   border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.1);
 }
 
@@ -246,7 +247,7 @@ nav {
 }
 
 #intro {
-  height: 115vh;
+  /* height: 115vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,24 +271,24 @@ nav {
 }
 
 .intro-content {
-  position: relative;
-  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
   width: 100%;
-  max-width: 90rem;
   margin: 0 auto;
   padding: 3.75rem;
 }
 
 .intro-text {
-  flex: 0 1 40%;
+  width: 100%;
   margin: 0 5rem;
   text-align: center;
 }
 
+.intro-shape {
+  width: 100%;
+  border-radius: 5rem;
+}
 .intro-text h1 {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
@@ -295,12 +296,6 @@ nav {
 }
 .special-text {
   font-size: 3.5rem;
-}
-.intro-shape {
-  flex: 0 1 30%;
-  height: 40rem;
-
-  border-radius: 5rem;
 }
 
 /* Responsive */
@@ -316,14 +311,14 @@ nav {
   }
 
   .intro-text {
-    margin: 0;
-    margin-bottom: 2.5rem;
+    width: 100%;
+    ]margin-bottom: 2.5rem;
     text-align: center;
   }
 
   .intro-shape {
     width: 100%;
-    height: 12.5rem;
+    padding: 1rem;
   }
 }
 
